@@ -1,0 +1,119 @@
+.wrapper {
+    min-height: 95vh;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(138deg, rgba(245,221,87,1) 0%, rgba(228,98,71,1) 100%);
+    text-align: center;
+    background-color: #F0CA8C;
+    margin: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-bottom: thin #B64E38 solid;
+    width: 100%;
+    height: 10vh;
+    font-family: Merriweather Sans;
+}
+  
+header h1 {
+    color: #fff;
+    text-shadow: -1px -1px 0 #B64E38, 1px -1px 0 #B64E38, -1px 1px 0 #B64E38, 1px 1px 0 #B64E38;
+    font-size: 3.5em;
+    font-weight: 500;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+  
+nav {
+    background-color: #fff;
+    padding-right: 0.5vw;
+    width: 100%;
+    border-bottom: thin #B64E38 solid;
+    height: 6vh;
+}
+
+nav a {
+    line-height: 6vh;
+    color: #B64E38;
+    font-size: 1.25em;
+    text-decoration: none;
+    margin: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.current-page {
+    font-weight: bold;
+}
+
+nav span {
+    margin: 0;
+    color: #B64E38;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.content-wrapper {
+    min-height: 64vh;
+    padding: 0;
+    margin: 0;
+}
+
+.main-image{
+    width: 100%;
+}
+
+.main-image img{
+    width: 100%;
+}
+
+#intro {
+    color: #000;
+    width: 100%;
+    margin-top: 6% ;
+    margin-bottom: 10%;
+}
+
+#intro h3 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#intro P{
+    width: 60%;
+    font-size: 1.25em;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+footer div{
+    border-top: thin #B64E38 solid;
+    background: linear-gradient(138deg, rgba(245,221,87,1) 0%, rgba(228,98,71,1) 100%);
+    width: 100%;
+    height: 10vh;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; 
+    background-color: #2a2a2a;
+    color: #fff;
+    font-size: 0.75em;
+    height: 5vh;
+} 
