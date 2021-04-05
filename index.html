@@ -5,31 +5,43 @@
     <meta charset="UTF-8">
     <meta name="author" content="Callum McFadgen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/splash.css">
-    <title>Summer sippers | Splash</title>
+    <title>Summer Sippers | Splash</title>
 </head>
 
 <body>
     <div id="page-wrapper">
-        <div id="content-wrapper">
+        <div class="content-wrapper">
             <div id="header">
-                <!-- <div>
-                    <img src="./images/splash/header.jpg"/>
-                </div> -->
-                <h1>Summer sippers</h1>
-                <h2>Cocktails and beverages inspired by the lifestyle of sunny Nelson</h2>
+                <div>
+                    <img src="../images/splash-avatar.jpg" height="150px" width="150px" />
+                </div>
+                <h1>Summer Sippers</h1>
+                <h2>Cocktails and beverages inspired by sunny Nelson</h2>
             </div>
             <div id="disclaimer">
-                <p></p>
-                <p>Are you of legal drinking age in the country from which you are accessing this website? </p>
-                <a href="home.html" class="button">YES</a>
-                <a href="#" class="button">NO</a>
+                <p>This site contains content promoting the use alchol which requires you to be at least 18 years or older. Click yes to confirm your age.</p>
+                <a href="home.html">Yes, I'm over 18</a>
+                <a href="https://www.alcohol.org.nz/">No, Im under 18</a>
             </div>
             <div id="terms">
-                <p>By entering this site you agree to :</p>
-                <a href="" class="button"">Terms and conditons</a>
-                <a href="#" class="button"">Privacy and cookie policy</a>
+                <p>By entering this site you agree to our
+                    <a href="terms-and-conditions.html" class="button"">Terms and conditons</a> and our 
+                    <a href=" cookie-policy.html" class="button"">Privacy and cookie policy</a>.
+                </p>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div id="newsletter">
+                <h3>Sign up for updates about news and events</h3>
+                <form>
+                    <input type="text" name="address" placeholder="Your email address" id="email-address">
+                    <input type="submit" value="Submit" id="submit-button">
+                </form>
             </div>
         </div>
     </div>

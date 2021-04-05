@@ -1,5 +1,4 @@
 .wrapper {
-    min-height: 95vh;
     padding: 0;
     margin: 0;
 }
@@ -17,10 +16,10 @@ header {
     border-bottom: thin #B64E38 solid;
     width: 100%;
     height: 10vh;
-    font-family: Merriweather Sans;
 }
   
 header h1 {
+    font-family: Montserrat, sans-serif;
     color: #fff;
     text-shadow: -1px -1px 0 #B64E38, 1px -1px 0 #B64E38, -1px 1px 0 #B64E38, 1px 1px 0 #B64E38;
     font-size: 3.5em;
@@ -30,7 +29,7 @@ header h1 {
 }
   
 nav {
-    background-color: #fff;
+    background-color: #8D7159;
     padding-right: 0.5vw;
     width: 100%;
     border-bottom: thin #B64E38 solid;
@@ -39,7 +38,7 @@ nav {
 
 nav a {
     line-height: 6vh;
-    color: #B64E38;
+    color: #EEA750;
     font-size: 1.25em;
     text-decoration: none;
     margin: none;
@@ -53,7 +52,7 @@ nav a {
 
 nav span {
     margin: 0;
-    color: #B64E38;
+    color: #EEA750;
     font-size: 2em;
     font-weight: bold;
 }
@@ -76,16 +75,19 @@ nav span {
     color: #000;
     width: 100%;
     margin-top: 6% ;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 #intro h3 {
+    font-family: Montserrat, sans-serif;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 5vh;;
 }
 
 #intro P{
+    font-family: Open sans, sans-serif;
     width: 60%;
     font-size: 1.25em;
     margin-top: 2vh;
@@ -112,8 +114,8 @@ footer p{
     align-items: center;
     text-align: center;
     width: 100%; 
-    background-color: #2a2a2a;
-    color: #fff;
+    background-color: #8D7159;;
+    color: #EEA750;
     font-size: 0.75em;
     height: 5vh;
 } 
