@@ -94,11 +94,11 @@ body{
     margin-top: 1vh;
     margin-right: 1.5vw;
     margin-bottom: 2vh;
-    background: #EEA750;
-    color: #ffffff;
     font-size: 1.25em;
     font-weight: 600;
+    color: #ffffff;
     text-shadow: -1px -1px 0 #B64E38, 1px -1px 0 #B64E38, -1px 1px 0 #B64E38, 1px 1px 0 #B64E38;
+    background: #EEA750;
     display: inline-block;
     text-decoration: none;
     border: 1px #B64E38 solid;
